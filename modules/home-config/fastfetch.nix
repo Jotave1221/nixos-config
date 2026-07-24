@@ -8,14 +8,8 @@
       "$schema" = "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json";
 
       logo = {
-        type = "kitty";
-        source = "${./NixOS.png}";
-        width = 40;
-        height = 20;
-        padding = {
-          top = 1;
-          left = 2;
-        };
+        type = "file";
+        source = "./aperture-ascii.txt";
       };
 
       modules = [
