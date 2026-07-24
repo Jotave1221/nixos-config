@@ -8,8 +8,8 @@
       "$schema" = "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json";
 
       logo = {
-        type = "file";
-        source = "${./aperture-ascii.txt}";
+        type = "kitty";
+        source = "${./aperture-symbol-logo-clip-art-portal-thumbnail.jpg}";
         "color" = {
           "1" = "38;2;255;102;0"; 
           "2" = "38;2;0;162;255";  
