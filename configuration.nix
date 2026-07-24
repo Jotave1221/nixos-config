@@ -3,7 +3,6 @@
 {
   imports = [
     ./hardware-configuration.nix
-    <home-manager/nixos> # Se estiver usando NIX_PATH ou Flakes
     ./modules
   ];
 
