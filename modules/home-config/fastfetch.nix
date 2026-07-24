@@ -9,7 +9,7 @@
 
       logo = {
         type = "kitty";
-        source = "${./aperture-symbol-logo-clip-art-portal-thumbnail.jpg}";
+        source = "${./43-438266_aperture-science-logo-png.png}";
         "color" = {
           "1" = "38;2;255;102;0"; 
           "2" = "38;2;0;162;255";  
