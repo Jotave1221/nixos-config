@@ -9,11 +9,15 @@
 
       logo = {
         type = "kitty";
-        source = "${./43-438266_aperture-science-logo-png.png}";
-        "color" = {
-          "1" = "38;2;255;102;0"; 
-          "2" = "38;2;0;162;255";  
-        };
+        source = "${./43-438266_aperture-science-logo-png.png}";  
+        # Ajuste o tamanho da imagem (em colunas de texto)
+        width = 30; 
+        height = 15;
+
+        # Padding para afastar o texto da imagem
+        padding = {
+          right = 2;
+        };      
       };
 
       modules = [
