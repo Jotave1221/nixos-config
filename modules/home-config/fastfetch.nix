@@ -10,6 +10,10 @@
       logo = {
         type = "file";
         source = "./aperture-ascii.txt";
+        "color" = {
+          "1" = "38;2;255;102;0"; 
+          "2" = "38;2;0;162;255";  
+        };
       };
 
       modules = [
