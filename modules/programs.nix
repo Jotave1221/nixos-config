@@ -23,6 +23,7 @@
       gh
       genact
       hollywood
+      foot
     ];
 
     fonts.packages = with pkgs; [
