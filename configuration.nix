@@ -6,10 +6,11 @@
     ./modules
   ];
 
-  # Configuração do Home Manager para o seu usuário
-  home-manager.useGlobalPkgs = true;
-  home-manager.useUserPackages = true;
-  home-manager.users.jotave = import ./home.nix;
+ home-manager = {
+    useGlobalPkgs = true;
+    useUserPackages = true;
+    users.jotave = import ./home.nix;
+  };
 
   system.stateVersion = "24.05";
 
