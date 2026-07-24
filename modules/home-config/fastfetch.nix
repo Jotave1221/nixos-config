@@ -8,7 +8,7 @@
       "$schema" = "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json";
 
       logo = {
-        type = "kitty";
+        type = "sigel";
         source = "${./43-438266_aperture-science-logo-png.png}";  
         # Ajuste o tamanho da imagem (em colunas de texto)
         width = 30; 
