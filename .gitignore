@@ -1,0 +1,10 @@
+# Chaves e segredos locais
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Arquivos temporários e de compilação do Nix
+.nix-gc*
+result
+result-*
