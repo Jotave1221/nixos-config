@@ -21,6 +21,8 @@
       curl
       git
       gh
+      genact
+      hollywood
     ];
 
     fonts.packages = with pkgs; [
