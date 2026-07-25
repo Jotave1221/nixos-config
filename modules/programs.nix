@@ -24,6 +24,8 @@
       genact
       hollywood
       foot
+      vscode
+      python3
     ];
 
     fonts.packages = with pkgs; [
