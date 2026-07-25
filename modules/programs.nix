@@ -26,6 +26,7 @@
       foot
       vscode
       python3
+      gparted
     ];
 
     fonts.packages = with pkgs; [
