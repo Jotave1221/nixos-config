@@ -9,7 +9,7 @@
 
       logo = {
         type = "kitty";
-        source = "${./43-438266_aperture-science-logo-png.png}";  
+        source = "${./NixOS.png}";  
         # Ajuste o tamanho da imagem (em colunas de texto)
         width = 30; 
         height = 15;
