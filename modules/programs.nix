@@ -27,6 +27,7 @@
       vscode
       python3
       gparted
+      discord
     ];
 
     fonts.packages = with pkgs; [
