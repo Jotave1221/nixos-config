@@ -27,6 +27,7 @@
       vscode
       python3
       gparted
+      stremio-linux-shell
       discord
     ];
 
