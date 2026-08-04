@@ -46,5 +46,6 @@
     programs.firefox.enable = true;
 
     services.flatpak.enable = true;
-
+    virtualisation.virtualbox.host.enable = true;
+    users.extraGroups.vboxusers.members = [ "jotave" ];
   }
